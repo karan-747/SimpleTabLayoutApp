@@ -24,10 +24,6 @@ class MainActivity : AppCompatActivity() {
         TabLayoutMediator (binding.tabLayout,binding.viewPager){
             tab,position->tab.text = tabs[position]
         }.attach()
-
-
-
-
-
+        
     }
 }
